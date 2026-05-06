@@ -50,11 +50,11 @@ export default function GamePage({
     })
 
   const idMap = useMemo(() => {
-    const map = new Map<number, DataFeature>()
+    const featureMap = new Map<number, DataFeature>()
     fc.features.forEach((feature) => {
-      map.set(feature.id! as number, feature)
+      featureMap.set(feature.id! as number, feature)
     })
-    return map
+    return featureMap
   }, [fc.features])
 
   const stationsPerLine = useMemo(() => {
@@ -144,8 +144,6 @@ export default function GamePage({
 
   useEffect(() => {
     if (foundProportion > BEG_THRESHOLD && !hasShownStripeModal) {
-      // once we reach a certain threshold, we show the stripe modal
-      // and unlock the rest of the game.
       setShowStripeModal(true)
       setHasShownStripeModal(true)
     }
@@ -162,7 +160,17 @@ export default function GamePage({
   useEffect(() => {
     mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN!
 
-    const mapboxMap = new mapboxgl.Map(MAP_CONFIG)
+    const mapboxMap = new mapboxgl.Map({
+      ...MAP_CONFIG,
+      transformRequest: (url, resourceType) => {
+        if (resourceType === 'Glyphs' && url.startsWith('mapbox://fonts/mapbox/')) {
+          return {
+            url: url.replace('mapbox://fonts/mapbox/', 'mapbox://fonts/atreyut/')
+          }
+        }
+        return { url };
+      }
+    })
 
     mapboxMap.on('load', () => {
       mapboxMap.addSource('features', {
@@ -178,7 +186,7 @@ export default function GamePage({
         },
       })
 
-      if (MAP_FROM_DATA && routes) {
+      if (routes && routes.features && routes.features.length > 0) {
         mapboxMap.addSource('lines', {
           type: 'geojson',
           data: routes,
@@ -192,21 +200,26 @@ export default function GamePage({
               'interpolate',
               ['linear'],
               ['zoom'],
-              8.763,
-              1.5,
-              15,
-              3,
-              22,
-              3,
+              8.763, 1.5,
+              15, 3,
+              22, 3,
             ],
-            'line-color': ['get', 'color'],
+            'line-color': [
+              'match',
+              ['get', 'line'],
+              ...Object.keys(LINES).flatMap((id) => [
+                id, 
+                LINES[id].color
+              ]),
+              '#cccccc'
+            ],
             'line-offset': ['match', ['get', 'line'], '', 2, 0],
           },
           source: 'lines',
           layout: {
             'line-sort-key': ['-', 100, ['get', 'order']],
           },
-        })
+        }, undefined)
 
         mapboxMap.addLayer({
           type: 'circle',
@@ -217,10 +230,8 @@ export default function GamePage({
               'interpolate',
               ['linear'],
               ['zoom'],
-              9,
-              1.5,
-              16,
-              10,
+              9, 1.5,
+              16, 10,
             ],
             'circle-color': '#ffffff',
             'circle-stroke-color': 'rgb(122, 122, 122)',
@@ -228,10 +239,8 @@ export default function GamePage({
               'interpolate',
               ['linear'],
               ['zoom'],
-              8,
-              0.5,
-              22,
-              2,
+              8, 0.5,
+              22, 2,
             ],
           },
         })
@@ -325,7 +334,7 @@ export default function GamePage({
         minzoom: 11,
         layout: {
           'text-field': ['to-string', ['get', 'name']],
-          'text-font': ['Cabin Regular', 'Arial Unicode MS Regular'],
+          'text-font': ['Cabin Regular'],
           'text-anchor': 'bottom',
           'text-offset': [0, -0.5],
           'text-size': ['interpolate', ['linear'], ['zoom'], 11, 12, 22, 14],
@@ -362,7 +371,7 @@ export default function GamePage({
         },
         layout: {
           'text-field': ['to-string', ['get', 'name']],
-          'text-font': ['Cabin Bold', 'Arial Unicode MS Regular'],
+          'text-font': ['Cabin Bold'],
           'text-anchor': 'bottom',
           'text-offset': [0, -0.6],
           'text-size': ['interpolate', ['linear'], ['zoom'], 11, 14, 22, 16],
@@ -372,12 +381,9 @@ export default function GamePage({
         filter: ['==', '$type', 'Point'],
       })
 
-      mapboxMap.once('data', () => {
-        setMap((map) => (map === null ? mapboxMap : map))
-      })
-
       mapboxMap.once('idle', () => {
-        setMap((map) => (map === null ? mapboxMap : map))
+        setMap(mapboxMap)
+        
         mapboxMap.on('mousemove', ['stations-circles'], (e) => {
           if (e.features && e.features.length > 0) {
             const feature = e.features.find((f) => f.state.found && f.id)
@@ -385,7 +391,6 @@ export default function GamePage({
               return setHoveredId(feature.id as number)
             }
           }
-
           setHoveredId(null)
         })
 
@@ -398,28 +403,28 @@ export default function GamePage({
     return () => {
       mapboxMap.remove()
     }
-  }, [setMap, fc, LINES, MAP_CONFIG, MAP_FROM_DATA, routes])
+  }, [fc, LINES, MAP_CONFIG, routes])
+
+useEffect(() => {
+    const source = map?.getSource?.('hovered') as mapboxgl.GeoJSONSource | undefined;
+    
+    if (!source) return;
+
+    source.setData({
+      type: 'FeatureCollection',
+      features: hoveredId ? [idMap.get(hoveredId)!] : [],
+    });
+  }, [map, hoveredId, idMap]);
 
   useEffect(() => {
-    if (!map) {
-      return
-    } else {
-      ;(map.getSource('hovered') as mapboxgl.GeoJSONSource).setData({
-        type: 'FeatureCollection',
-        features: hoveredId ? [idMap.get(hoveredId)!] : [],
-      })
-    }
-  }, [map, hoveredId, idMap])
+    if (!map?.removeFeatureState || !map?.getSource?.('features') || !found) return;
 
-  useEffect(() => {
-    if (!map || !found) return
-
-    map.removeFeatureState({ source: 'features' })
+    map.removeFeatureState({ source: 'features' });
 
     for (let id of found) {
-      map.setFeatureState({ source: 'features', id }, { found: true })
+      map.setFeatureState({ source: 'features', id }, { found: true });
     }
-  }, [found, map])
+  }, [found, map]);
 
   const zoomToFeature = useCallback(
     (id: number) => {

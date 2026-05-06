@@ -9,7 +9,7 @@ export const ConfigContext = createContext<Config>({
   CITY_NAME: 'default',
   MAP_CONFIG: {
     container: 'map',
-    style: 'mapbox://styles/benjamintd/clohp062g002b01o4e3lt1exh',
+    style: 'mapbox://styles/atreyut/cmos8tgh0003c01rye6nh8b6a',
     bounds: [
       [-4.184549, 40.156349],
       [-3.19578, 40.62702],
@@ -21,17 +21,17 @@ export const ConfigContext = createContext<Config>({
     minZoom: 6,
     fadeDuration: 50,
   },
-  STRIPE_LINK: 'https://buy.stripe.com/bIY8x3fiCgmC9bi8wx',
+  STRIPE_LINK: '',
   METADATA: {
-    title: 'Metro Memory',
-    description: 'How many of the Metro stations can you name from memory?',
+    title: 'BRT Memory',
+    description: 'How many of the BRT stops can you name from memory?',
     openGraph: {
-      title: 'Metro Memory',
+      title: 'BRT Memory',
       description:
-        'How many of the metro stations can you name from memory? Try this game to find out.',
+        'How many of the BRT stops can you name from memory? Try this game to find out.',
       type: 'website',
       locale: 'en',
-      url: 'https://metro-memory.com/',
+      url: 'https://github.com/atreyut/brt-memory/',
     },
   },
   LINES: {},

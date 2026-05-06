@@ -23,7 +23,7 @@ const fc = {
 
 export const metadata = config.METADATA
 
-export default function Madrid() {
+export default function Mexibus() {
   return (
     <Provider value={config}>
       <Main className={`${font.className} min-h-screen`}>
