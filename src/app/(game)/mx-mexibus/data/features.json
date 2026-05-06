@@ -4,417 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 6180,
-        "name": "Ciudad Azteca",
-        "line": "MX1",
-        "order": 0
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0272102,
-          19.5342996
-        ],
-        "type": "Point"
-      },
-      "id": 6180
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6181,
-        "name": "Quinta Sol",
-        "line": "MX1",
-        "order": 1
-      },
-      "geometry": {
-        "coordinates": [
-          -99.02517355,
-          19.539426900000002
-        ],
-        "type": "Point"
-      },
-      "id": 6181
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6182,
-        "name": "Josefa Ortiz",
-        "alternate_names": ["Josefa Ortiz de Domínguez"],
-        "line": "MX1",
-        "order": 2
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0221777,
-          19.5462788
-        ],
-        "type": "Point"
-      },
-      "id": 6182
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6183,
-        "name": "Industrial",
-        "line": "MX1",
-        "order": 3
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0205722,
-          19.5499929
-        ],
-        "type": "Point"
-      },
-      "id": 6183
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6184,
-        "name": "UNITEC",
-        "line": "MX1",
-        "order": 4
-      },
-      "geometry": {
-        "coordinates": [
-          -99.019413,
-          19.5539732
-        ],
-        "type": "Point"
-      },
-      "id": 6184
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6185,
-        "name": "Alfredo Torres",
-        "line": "MX1",
-        "order": 5
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0173465,
-          19.5582838
-        ],
-        "type": "Point"
-      },
-      "id": 6185
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6186,
-        "name": "Zodiaco",
-        "line": "MX1",
-        "order": 6
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0152467,
-          19.5632148
-        ],
-        "type": "Point"
-      },
-      "id": 6186
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6187,
-        "name": "Adolfo López Mateos",
-        "line": "MX1",
-        "order": 7
-      },
-      "geometry": {
-        "coordinates": [
-          -99.015511,
-          19.5670698
-        ],
-        "type": "Point"
-      },
-      "id": 6187
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6188,
-        "name": "Vocacional 3",
-        "line": "MX1",
-        "order": 8
-      },
-      "geometry": {
-        "coordinates": [
-          -99.01798705,
-          19.5700722
-        ],
-        "type": "Point"
-      },
-      "id": 6188
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6189,
-        "name": "Valle de Ecatepec",
-        "line": "MX1",
-        "order": 9
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0207918,
-          19.5730698
-        ],
-        "type": "Point"
-      },
-      "id": 6189
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6190,
-        "name": "Las Américas",
-        "line": "MX1",
-        "order": 10
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0244319,
-          19.580554
-        ],
-        "type": "Point"
-      },
-      "id": 6190
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6191,
-        "name": "1 de Mayo",
-        "alternate_names": ["1° de mayo", "Primero de mayo", "1o de mayo"],
-        "line": "MX1",
-        "order": 11
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0246377,
-          19.5877363
-        ],
-        "type": "Point"
-      },
-      "id": 6191
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6192,
-        "name": "Hospital",
-        "alternate_names": ["Hospital Las Américas"],
-        "line": "MX1",
-        "order": 12
-      },
-      "geometry": {
-        "coordinates": [
-          -99.01992325,
-          19.594842749999998
-        ],
-        "type": "Point"
-      },
-      "id": 6192
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6193,
-        "name": "Aquiles Serdán",
-        "line": "MX1",
-        "order": 13
-      },
-      "geometry": {
-        "coordinates": [
-          -99.01790273813889,
-          19.598486017299855
-        ],
-        "type": "Point"
-      },
-      "id": 6193
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Jardines de Morelos",
-        "line": "MX1",
-        "id": 6194,
-        "order": 14
-      },
-      "geometry": {
-        "coordinates": [
-          -99.016387,
-          19.60029
-        ],
-        "type": "Point"
-      },
-      "id": 6194
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6195,
-        "name": "Palomas",
-        "line": "MX1",
-        "order": 15
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0115044,
-          19.607328
-        ],
-        "type": "Point"
-      },
-      "id": 6195
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6196,
-        "name": "19 de Septiembre",
-        "line": "MX1",
-        "order": 16
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0092948,
-          19.6105712
-        ],
-        "type": "Point"
-      },
-      "id": 6196
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6197,
-        "name": "Central de Abastos",
-        "line": "MX1",
-        "order": 17
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0079643,
-          19.6166347
-        ],
-        "type": "Point"
-      },
-      "id": 6197
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6198,
-        "name": "Insurgentes",
-        "line": "MX1",
-        "order": 18
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0033233,
-          19.625216
-        ],
-        "type": "Point"
-      },
-      "id": 6198
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6199,
-        "name": "Hidalgo",
-        "line": "MX1",
-        "order": 19
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0020748,
-          19.63348985
-        ],
-        "type": "Point"
-      },
-      "id": 6199
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6200,
-        "name": "Cuauhtémoc Sur",
-        "line": "MX1",
-        "order": 20
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0026218,
-          19.6380044
-        ],
-        "type": "Point"
-      },
-      "id": 6200
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6201,
-        "name": "Cuauhtémoc Norte",
-        "line": "MX1",
-        "order": 21
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0050569,
-          19.6465428
-        ],
-        "type": "Point"
-      },
-      "id": 6201
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6202,
-        "name": "Esmeralda",
-        "line": "MX1",
-        "order": 22
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0050676,
-          19.6516824
-        ],
-        "type": "Point"
-      },
-      "id": 6202
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ojo de Agua",
-        "line": "MX1",
-        "id": 6203,
-        "order": 23
-      },
-      "geometry": {
-        "coordinates": [
-          -99.001922,
-          19.661686
-        ],
-        "type": "Point"
-      },
-      "id": 6203
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": 6204,
         "name": "Ojo de Agua",
         "line": "MX1A",
@@ -620,7 +209,9 @@
       "type": "Feature",
       "properties": {
         "name": "Estación Retorno Oriente",
-        "alternate_names": ["ERO"],
+        "alternate_names": [
+          "ERO"
+        ],
         "line": "MX2",
         "id": 6216,
         "order": 1
@@ -809,7 +400,10 @@
       "properties": {
         "id": 6227,
         "name": "San Mateo",
-        "alternate_names": ["De la Cruz San Mateo", "De la Cruz"],
+        "alternate_names": [
+          "De la Cruz San Mateo",
+          "De la Cruz"
+        ],
         "line": "MX2",
         "order": 12
       },
@@ -844,7 +438,9 @@
       "properties": {
         "id": 6229,
         "name": "Mariscala del Bosque",
-        "alternate_names": ["Mariscala Real del Bosque"],
+        "alternate_names": [
+          "Mariscala Real del Bosque"
+        ],
         "line": "MX2",
         "order": 14
       },
@@ -1015,7 +611,10 @@
       "properties": {
         "id": 6239,
         "name": "1.ª de Villa",
-        "alternate_names": ["1a de Villa", "Primera de Villa"],
+        "alternate_names": [
+          "1a de Villa",
+          "Primera de Villa"
+        ],
         "line": "MX2",
         "order": 24
       },
@@ -1321,7 +920,11 @@
       "type": "Feature",
       "properties": {
         "name": "1 de Mayo",
-        "alternate_names": ["1° de mayo", "Primero de mayo", "1o de mayo"],
+        "alternate_names": [
+          "1° de mayo",
+          "Primero de mayo",
+          "1o de mayo"
+        ],
         "line": "MX2",
         "id": 6257,
         "order": 42
@@ -1508,516 +1111,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 6268,
-        "name": "Pantitlán",
-        "line": "MX3",
-        "order": 0
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0720932,
-          19.4172172
-        ],
-        "type": "Point"
-      },
-      "id": 6268
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6269,
-        "name": "Calle 6",
-        "line": "MX3",
-        "order": 1
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0585773,
-          19.4208965
-        ],
-        "type": "Point"
-      },
-      "id": 6269
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6270,
-        "name": "El Barquito",
-        "line": "MX3",
-        "order": 2
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0480439,
-          19.4199498
-        ],
-        "type": "Point"
-      },
-      "id": 6270
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6271,
-        "name": "Maravillas",
-        "line": "MX3",
-        "order": 3
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0444793,
-          19.4189961
-        ],
-        "type": "Point"
-      },
-      "id": 6271
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6272,
-        "name": "Vicente Riva Palacio",
-        "line": "MX3",
-        "order": 4
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0410776,
-          19.4180779
-        ],
-        "type": "Point"
-      },
-      "id": 6272
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Virgencitas",
-        "line": "MX3",
-        "id": 6273,
-        "order": 5
-      },
-      "geometry": {
-        "coordinates": [
-          -99.034798,
-          19.415482
-        ],
-        "type": "Point"
-      },
-      "id": 6273
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6274,
-        "name": "Nezahualcóyotl",
-        "line": "MX3",
-        "order": 6
-      },
-      "geometry": {
-        "coordinates": [
-          -99.03190401935588,
-          19.414068643068127
-        ],
-        "type": "Point"
-      },
-      "id": 6274
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6275,
-        "name": "Lago de Chapala",
-        "line": "MX3",
-        "order": 7
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0273593,
-          19.4118795
-        ],
-        "type": "Point"
-      },
-      "id": 6275
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6276,
-        "name": "Adolfo López Mateos",
-        "line": "MX3",
-        "order": 8
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0219148,
-          19.4091711
-        ],
-        "type": "Point"
-      },
-      "id": 6276
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6277,
-        "name": "Palacio Municipal",
-        "line": "MX3",
-        "order": 9
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0176859,
-          19.4071279
-        ],
-        "type": "Point"
-      },
-      "id": 6277
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sor Juana Inés de la Cruz",
-        "line": "MX3",
-        "id": 6278,
-        "order": 10
-      },
-      "geometry": {
-        "coordinates": [
-          -99.014171,
-          19.405391
-        ],
-        "type": "Point"
-      },
-      "id": 6278
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6279,
-        "name": "El Castillito",
-        "line": "MX3",
-        "order": 11
-      },
-      "geometry": {
-        "coordinates": [
-          -99.01180279750943,
-          19.404267845650082
-        ],
-        "type": "Point"
-      },
-      "id": 6279
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6280,
-        "name": "General Vicente Villada",
-        "line": "MX3",
-        "order": 12
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0074562,
-          19.4022869
-        ],
-        "type": "Point"
-      },
-      "id": 6280
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6281,
-        "name": "Rayito de Sol",
-        "line": "MX3",
-        "order": 13
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0038076,
-          19.4065971
-        ],
-        "type": "Point"
-      },
-      "id": 6281
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6282,
-        "name": "Las Mañanitas",
-        "line": "MX3",
-        "order": 14
-      },
-      "geometry": {
-        "coordinates": [
-          -99.0016954,
-          19.4105522
-        ],
-        "type": "Point"
-      },
-      "id": 6282
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6283,
-        "name": "Rancho Grande",
-        "line": "MX3",
-        "order": 15
-      },
-      "geometry": {
-        "coordinates": [
-          -98.9992906,
-          19.4150361
-        ],
-        "type": "Point"
-      },
-      "id": 6283
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6284,
-        "name": "Bordo de Xochiaca",
-        "line": "MX3",
-        "order": 16
-      },
-      "geometry": {
-        "coordinates": [
-          -98.9950652,
-          19.4155686
-        ],
-        "type": "Point"
-      },
-      "id": 6284
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6285,
-        "name": "Las Torres",
-        "line": "MX3",
-        "order": 17
-      },
-      "geometry": {
-        "coordinates": [
-          -98.9898793,
-          19.4143596
-        ],
-        "type": "Point"
-      },
-      "id": 6285
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6286,
-        "name": "Guerrero Chimalli",
-        "line": "MX3",
-        "order": 18
-      },
-      "geometry": {
-        "coordinates": [
-          -98.9827027,
-          19.412703
-        ],
-        "type": "Point"
-      },
-      "id": 6286
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6287,
-        "name": "Las Flores",
-        "line": "MX3",
-        "order": 19
-      },
-      "geometry": {
-        "coordinates": [
-          -98.9785339,
-          19.4146599
-        ],
-        "type": "Point"
-      },
-      "id": 6287
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6288,
-        "name": "Canteros",
-        "line": "MX3",
-        "order": 20
-      },
-      "geometry": {
-        "coordinates": [
-          -98.9756919,
-          19.4185486
-        ],
-        "type": "Point"
-      },
-      "id": 6288
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6289,
-        "name": "La Presa",
-        "line": "MX3",
-        "order": 21
-      },
-      "geometry": {
-        "coordinates": [
-          -98.9721493,
-          19.4219689
-        ],
-        "type": "Point"
-      },
-      "id": 6289
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6290,
-        "name": "Embarcadero",
-        "line": "MX3",
-        "order": 22
-      },
-      "geometry": {
-        "coordinates": [
-          -98.9672931,
-          19.4252334
-        ],
-        "type": "Point"
-      },
-      "id": 6290
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6291,
-        "name": "Santa Elena",
-        "line": "MX3",
-        "order": 23
-      },
-      "geometry": {
-        "coordinates": [
-          -98.962656,
-          19.4288131
-        ],
-        "type": "Point"
-      },
-      "id": 6291
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6292,
-        "name": "Ignacio Manuel Altamirano",
-        "line": "MX3",
-        "order": 24
-      },
-      "geometry": {
-        "coordinates": [
-          -98.957027,
-          19.431413671473877
-        ],
-        "type": "Point"
-      },
-      "id": 6292
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6293,
-        "name": "San Pablo",
-        "line": "MX3",
-        "order": 25
-      },
-      "geometry": {
-        "coordinates": [
-          -98.9516763,
-          19.4314206
-        ],
-        "type": "Point"
-      },
-      "id": 6293
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6294,
-        "name": "Los Patos",
-        "line": "MX3",
-        "order": 26
-      },
-      "geometry": {
-        "coordinates": [
-          -98.9459211,
-          19.4312142
-        ],
-        "type": "Point"
-      },
-      "id": 6294
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6295,
-        "name": "Refugio",
-        "line": "MX3",
-        "order": 27
-      },
-      "geometry": {
-        "coordinates": [
-          -98.94104405399145,
-          19.42985014044324
-        ],
-        "type": "Point"
-      },
-      "id": 6295
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 6296,
-        "name": "Acuitlapilco",
-        "line": "MX3",
-        "order": 28
-      },
-      "geometry": {
-        "coordinates": [
-          -98.93875501734595,
-          19.429664239469464
-        ],
-        "type": "Point"
-      },
-      "id": 6296
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Chimalhuacán",
-        "line": "MX3",
-        "id": 6297,
-        "order": 29
-      },
-      "geometry": {
-        "coordinates": [
-          -98.93719738151474,
-          19.423790741730315
-        ],
-        "type": "Point"
-      },
-      "id": 6297
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": 6298,
         "name": "Acuitlapilco",
         "line": "MX3A",
@@ -2025,8 +1118,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.93856995697665,
-          19.429539380055306
+          -98.9385693,
+          19.4295393
         ],
         "type": "Point"
       },
@@ -2042,8 +1135,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.93459292827373,
-          19.429295042590955
+          -98.9345929,
+          19.4292948
         ],
         "type": "Point"
       },
@@ -2059,8 +1152,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.93180327638919,
-          19.429101189329874
+          -98.931806,
+          19.4290978
         ],
         "type": "Point"
       },
@@ -2076,8 +1169,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.93097923822957,
-          19.425044621803252
+          -98.9309835,
+          19.4250847
         ],
         "type": "Point"
       },
@@ -2093,8 +1186,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.93076720375879,
-          19.421285150019113
+          -98.9307678,
+          19.4212851
         ],
         "type": "Point"
       },
@@ -2110,8 +1203,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.93156726207948,
-          19.416985108860857
+          -98.9315658,
+          19.4169849
         ],
         "type": "Point"
       },
@@ -2127,8 +1220,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.92855541194076,
-          19.41682433893904
+          -98.9285554,
+          19.4168242
         ],
         "type": "Point"
       },
@@ -2144,8 +1237,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.9220657715921,
-          19.416689007998823
+          -98.9220659,
+          19.4166879
         ],
         "type": "Point"
       },
@@ -2156,14 +1249,16 @@
       "properties": {
         "id": 6306,
         "name": "CEDA Chicoloapan",
-        "alternate_names": ["Central de Abastos Chicoloapan"],
+        "alternate_names": [
+          "Central de Abastos Chicoloapan"
+        ],
         "line": "MX3A",
         "order": 8
       },
       "geometry": {
         "coordinates": [
-          -98.92045591369104,
-          19.417144637985547
+          -98.920459,
+          19.417145
         ],
         "type": "Point"
       },
@@ -2179,8 +1274,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.92341614304874,
-          19.416951535397473
+          -98.9234165,
+          19.4169487
         ],
         "type": "Point"
       },
@@ -2196,8 +1291,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.92775707204086,
-          19.41701978567093
+          -98.9277571,
+          19.4170197
         ],
         "type": "Point"
       },
@@ -2213,8 +1308,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.93136944868759,
-          19.417541624492955
+          -98.9313695,
+          19.4175416
         ],
         "type": "Point"
       },
@@ -2230,8 +1325,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.93067484745048,
-          19.421629446704777
+          -98.9306754,
+          19.4216493
         ],
         "type": "Point"
       },
@@ -2247,8 +1342,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.9308497767452,
-          19.42461699902007
+          -98.9308505,
+          19.424617
         ],
         "type": "Point"
       },
@@ -2264,8 +1359,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.93217416395122,
-          19.429215184542116
+          -98.9321766,
+          19.4292111
         ],
         "type": "Point"
       },
@@ -2281,8 +1376,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.93548225720643,
-          19.42944443618774
+          -98.9354826,
+          19.4294435
         ],
         "type": "Point"
       },
@@ -2497,7 +1592,14 @@
       "properties": {
         "id": 6326,
         "name": "5.ª Aparición",
-        "alternate_names": ["5ª Aparición", "La 5ª Aparición", "Quinta Aparición", "La Quinta Aparición", "5a Aparición", "La 5a Aparición"],
+        "alternate_names": [
+          "5ª Aparición",
+          "La 5ª Aparición",
+          "Quinta Aparición",
+          "La Quinta Aparición",
+          "5a Aparición",
+          "La 5a Aparición"
+        ],
         "line": "MX4",
         "order": 12
       },
@@ -2801,6 +1903,935 @@
         "type": "Point"
       },
       "id": 6343
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6180,
+        "name": "Ciudad Azteca",
+        "line": "MX1",
+        "order": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0274483,
+          19.5347234
+        ],
+        "type": "Point"
+      },
+      "id": 6180
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6181,
+        "name": "Quinta Sol",
+        "line": "MX1",
+        "order": 1
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0254455,
+          19.5395924
+        ],
+        "type": "Point"
+      },
+      "id": 6181
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6182,
+        "name": "Josefa Ortiz",
+        "alternate_names": [
+          "Josefa Ortiz de Domínguez"
+        ],
+        "line": "MX1",
+        "order": 2
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0224992,
+          19.5464055
+        ],
+        "type": "Point"
+      },
+      "id": 6182
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6183,
+        "name": "Industrial",
+        "line": "MX1",
+        "order": 3
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0208525,
+          19.5501431
+        ],
+        "type": "Point"
+      },
+      "id": 6183
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6184,
+        "name": "UNITEC",
+        "line": "MX1",
+        "order": 4
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0192311,
+          19.5544066
+        ],
+        "type": "Point"
+      },
+      "id": 6184
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6185,
+        "name": "Alfredo Torres",
+        "line": "MX1",
+        "order": 5
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0173537,
+          19.55828
+        ],
+        "type": "Point"
+      },
+      "id": 6185
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6186,
+        "name": "Zodiaco",
+        "line": "MX1",
+        "order": 6
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0152481,
+          19.5632144
+        ],
+        "type": "Point"
+      },
+      "id": 6186
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6187,
+        "name": "Adolfo López Mateos",
+        "line": "MX1",
+        "order": 7
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0155343,
+          19.5670516
+        ],
+        "type": "Point"
+      },
+      "id": 6187
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6188,
+        "name": "Vocacional 3",
+        "line": "MX1",
+        "order": 8
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0180159,
+          19.5700588
+        ],
+        "type": "Point"
+      },
+      "id": 6188
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6189,
+        "name": "Valle de Ecatepec",
+        "line": "MX1",
+        "order": 9
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0207903,
+          19.5730348
+        ],
+        "type": "Point"
+      },
+      "id": 6189
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6190,
+        "name": "Las Américas",
+        "line": "MX1",
+        "order": 10
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0244314,
+          19.5805477
+        ],
+        "type": "Point"
+      },
+      "id": 6190
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6191,
+        "name": "1 de Mayo",
+        "alternate_names": [
+          "1° de mayo",
+          "Primero de mayo",
+          "1o de mayo"
+        ],
+        "line": "MX1",
+        "order": 11
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0246382,
+          19.5877384
+        ],
+        "type": "Point"
+      },
+      "id": 6191
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6192,
+        "name": "Hospital",
+        "alternate_names": [
+          "Hospital Las Américas"
+        ],
+        "line": "MX1",
+        "order": 12
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0199273,
+          19.5948451
+        ],
+        "type": "Point"
+      },
+      "id": 6192
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6193,
+        "name": "Aquiles Serdán",
+        "line": "MX1",
+        "order": 13
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0179158,
+          19.5984755
+        ],
+        "type": "Point"
+      },
+      "id": 6193
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jardines de Morelos",
+        "line": "MX1",
+        "id": 6194,
+        "order": 14
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0160938,
+          19.6007658
+        ],
+        "type": "Point"
+      },
+      "id": 6194
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6195,
+        "name": "Palomas",
+        "line": "MX1",
+        "order": 15
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0115156,
+          19.6073086
+        ],
+        "type": "Point"
+      },
+      "id": 6195
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6196,
+        "name": "19 de Septiembre",
+        "line": "MX1",
+        "order": 16
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0092978,
+          19.6105714
+        ],
+        "type": "Point"
+      },
+      "id": 6196
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6197,
+        "name": "Central de Abastos",
+        "line": "MX1",
+        "order": 17
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0079548,
+          19.6166355
+        ],
+        "type": "Point"
+      },
+      "id": 6197
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6198,
+        "name": "Insurgentes",
+        "line": "MX1",
+        "order": 18
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0031503,
+          19.625638
+        ],
+        "type": "Point"
+      },
+      "id": 6198
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6199,
+        "name": "Hidalgo",
+        "line": "MX1",
+        "order": 19
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0020725,
+          19.6335074
+        ],
+        "type": "Point"
+      },
+      "id": 6199
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6200,
+        "name": "Cuauhtémoc Sur",
+        "line": "MX1",
+        "order": 20
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0026287,
+          19.6380046
+        ],
+        "type": "Point"
+      },
+      "id": 6200
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6201,
+        "name": "Cuauhtémoc Norte",
+        "line": "MX1",
+        "order": 21
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0050655,
+          19.6465692
+        ],
+        "type": "Point"
+      },
+      "id": 6201
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6202,
+        "name": "Esmeralda",
+        "line": "MX1",
+        "order": 22
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0050709,
+          19.6516878
+        ],
+        "type": "Point"
+      },
+      "id": 6202
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ojo de Agua",
+        "line": "MX1",
+        "id": 6203,
+        "order": 23
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0019139,
+          19.6617704
+        ],
+        "type": "Point"
+      },
+      "id": 6203
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6268,
+        "name": "Pantitlán",
+        "line": "MX3",
+        "order": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0721186,
+          19.416829
+        ],
+        "type": "Point"
+      },
+      "id": 6268
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6269,
+        "name": "Calle 6",
+        "line": "MX3",
+        "order": 1
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0585735,
+          19.420881
+        ],
+        "type": "Point"
+      },
+      "id": 6269
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6270,
+        "name": "El Barquito",
+        "line": "MX3",
+        "order": 2
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0480408,
+          19.4199584
+        ],
+        "type": "Point"
+      },
+      "id": 6270
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6271,
+        "name": "Maravillas",
+        "line": "MX3",
+        "order": 3
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0444681,
+          19.4189939
+        ],
+        "type": "Point"
+      },
+      "id": 6271
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6272,
+        "name": "Vicente Riva Palacio",
+        "line": "MX3",
+        "order": 4
+      },
+      "geometry": {
+        "coordinates": [
+          -99.041071,
+          19.418083
+        ],
+        "type": "Point"
+      },
+      "id": 6272
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Virgencitas",
+        "line": "MX3",
+        "id": 6273,
+        "order": 5
+      },
+      "geometry": {
+        "coordinates": [
+          -99.034773,
+          19.4154677
+        ],
+        "type": "Point"
+      },
+      "id": 6273
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6274,
+        "name": "Nezahualcóyotl",
+        "line": "MX3",
+        "order": 6
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0319001,
+          19.4140638
+        ],
+        "type": "Point"
+      },
+      "id": 6274
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6275,
+        "name": "Lago de Chapala",
+        "line": "MX3",
+        "order": 7
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0273461,
+          19.4118636
+        ],
+        "type": "Point"
+      },
+      "id": 6275
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6276,
+        "name": "Adolfo López Mateos",
+        "line": "MX3",
+        "order": 8
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0218879,
+          19.4091757
+        ],
+        "type": "Point"
+      },
+      "id": 6276
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6277,
+        "name": "Palacio Municipal",
+        "line": "MX3",
+        "order": 9
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0177136,
+          19.4071431
+        ],
+        "type": "Point"
+      },
+      "id": 6277
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sor Juana Inés de la Cruz",
+        "line": "MX3",
+        "id": 6278,
+        "order": 10
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0141425,
+          19.4054071
+        ],
+        "type": "Point"
+      },
+      "id": 6278
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6279,
+        "name": "El Castillito",
+        "line": "MX3",
+        "order": 11
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0117962,
+          19.4042662
+        ],
+        "type": "Point"
+      },
+      "id": 6279
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6280,
+        "name": "General Vicente Villada",
+        "line": "MX3",
+        "order": 12
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0074521,
+          19.4022959
+        ],
+        "type": "Point"
+      },
+      "id": 6280
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6281,
+        "name": "Rayito de Sol",
+        "line": "MX3",
+        "order": 13
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0038052,
+          19.4065958
+        ],
+        "type": "Point"
+      },
+      "id": 6281
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6282,
+        "name": "Las Mañanitas",
+        "line": "MX3",
+        "order": 14
+      },
+      "geometry": {
+        "coordinates": [
+          -99.0016957,
+          19.4105531
+        ],
+        "type": "Point"
+      },
+      "id": 6282
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6283,
+        "name": "Rancho Grande",
+        "line": "MX3",
+        "order": 15
+      },
+      "geometry": {
+        "coordinates": [
+          -98.9992665,
+          19.4150066
+        ],
+        "type": "Point"
+      },
+      "id": 6283
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6284,
+        "name": "Bordo de Xochiaca",
+        "line": "MX3",
+        "order": 16
+      },
+      "geometry": {
+        "coordinates": [
+          -98.9950584,
+          19.4155701
+        ],
+        "type": "Point"
+      },
+      "id": 6284
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6285,
+        "name": "Las Torres",
+        "line": "MX3",
+        "order": 17
+      },
+      "geometry": {
+        "coordinates": [
+          -98.9898842,
+          19.4143585
+        ],
+        "type": "Point"
+      },
+      "id": 6285
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6286,
+        "name": "Guerrero Chimalli",
+        "line": "MX3",
+        "order": 18
+      },
+      "geometry": {
+        "coordinates": [
+          -98.9826918,
+          19.4127031
+        ],
+        "type": "Point"
+      },
+      "id": 6286
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6287,
+        "name": "Las Flores",
+        "line": "MX3",
+        "order": 19
+      },
+      "geometry": {
+        "coordinates": [
+          -98.9785478,
+          19.4146427
+        ],
+        "type": "Point"
+      },
+      "id": 6287
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6288,
+        "name": "Canteros",
+        "line": "MX3",
+        "order": 20
+      },
+      "geometry": {
+        "coordinates": [
+          -98.9756806,
+          19.4185549
+        ],
+        "type": "Point"
+      },
+      "id": 6288
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6289,
+        "name": "La Presa",
+        "line": "MX3",
+        "order": 21
+      },
+      "geometry": {
+        "coordinates": [
+          -98.9721524,
+          19.421971
+        ],
+        "type": "Point"
+      },
+      "id": 6289
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6290,
+        "name": "Embarcadero",
+        "line": "MX3",
+        "order": 22
+      },
+      "geometry": {
+        "coordinates": [
+          -98.9672842,
+          19.4252575
+        ],
+        "type": "Point"
+      },
+      "id": 6290
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6291,
+        "name": "Santa Elena",
+        "line": "MX3",
+        "order": 23
+      },
+      "geometry": {
+        "coordinates": [
+          -98.9626698,
+          19.4288309
+        ],
+        "type": "Point"
+      },
+      "id": 6291
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6292,
+        "name": "Ignacio Manuel Altamirano",
+        "line": "MX3",
+        "order": 24
+      },
+      "geometry": {
+        "coordinates": [
+          -98.9570234,
+          19.4314122
+        ],
+        "type": "Point"
+      },
+      "id": 6292
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6293,
+        "name": "San Pablo",
+        "line": "MX3",
+        "order": 25
+      },
+      "geometry": {
+        "coordinates": [
+          -98.951675,
+          19.4314213
+        ],
+        "type": "Point"
+      },
+      "id": 6293
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6294,
+        "name": "Los Patos",
+        "line": "MX3",
+        "order": 26
+      },
+      "geometry": {
+        "coordinates": [
+          -98.9459424,
+          19.4312232
+        ],
+        "type": "Point"
+      },
+      "id": 6294
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6295,
+        "name": "Refugio",
+        "line": "MX3",
+        "order": 27
+      },
+      "geometry": {
+        "coordinates": [
+          -98.9410371,
+          19.4298469
+        ],
+        "type": "Point"
+      },
+      "id": 6295
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6296,
+        "name": "Acuitlapilco",
+        "line": "MX3",
+        "order": 28
+      },
+      "geometry": {
+        "coordinates": [
+          -98.9387551,
+          19.4296635
+        ],
+        "type": "Point"
+      },
+      "id": 6296
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chimalhuacán",
+        "line": "MX3",
+        "id": 6297,
+        "order": 29
+      },
+      "geometry": {
+        "coordinates": [
+          -98.9371975,
+          19.4237897
+        ],
+        "type": "Point"
+      },
+      "id": 6297
     }
   ]
 }
